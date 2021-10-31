@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "postcss ./src/tailwind.css -o ./public/tailwind.css"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,9 +14,6 @@
     "exchange": "0.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.10"
-  },
-  "devDependencies": {
-    "@tailwindcss/custom-forms": "^0.2.1"
   },
   "description": ""
 }
